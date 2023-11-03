@@ -1,3 +1,9 @@
+
+
+//Для підключення потрібно ініціалізувати новий екз класу new IntersectionObserver
+  // Переддати посилання на КОЛЛбек функціяїю (handlerLoadMore),  що ми маєжмо виконати, коли ланий обзервер спрацює
+   //options налаштування, коли йому варто спрацьовуваи
+
 const elements = {
     list: document.querySelector(".js-movie-list"),
     guard: document.querySelector(".js-guard"),
@@ -6,7 +12,7 @@ const elements = {
   // ініціалізація новоо екзкмпляру класу
   const options = {
     root: null, // слідкуємо повністю за всім екраном
-    rootMargin: "300px",
+    rootMargin: "300px", //відступи навколо вашого вьюпорта
   };
 
   const observer = new IntersectionObserver(handlerLoadMore, options);

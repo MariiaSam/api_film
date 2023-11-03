@@ -1,3 +1,13 @@
+a {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  text-decoration: none;
+  color: #333;
+  display: block;
+  margin: 25px;
+}
+
 .button-container {
     display: flex;
     justify-content: center;
@@ -8,7 +18,7 @@
     display: none;
   }
   
-  .load-more {
+  .js-load-more {
     display: inline-block;
     padding: 10px 20px;
     font-size: 1.2em;
@@ -42,7 +52,7 @@
     height: 575px;
     margin: 20px;
     border-radius: 10px;
-    overflow: hidden;
+    overflow: scroll;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     background-color: #fff;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
