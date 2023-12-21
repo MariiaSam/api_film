@@ -31,7 +31,7 @@ const elements = {
   function serviceMovie(page = 1) {
     const BASE_URL = "https://api.themoviedb.org/3";
     const END_POINT = "/trending/movie/week";
-    const API_KEY = "345007f9ab440e5b86cef51be6397df1";
+    const API_KEY = "7d5772a03fae6a2147472c66f959bbcf";
     const params = new URLSearchParams({
       api_key: API_KEY,
       page,
